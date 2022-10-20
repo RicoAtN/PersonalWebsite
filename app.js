@@ -29,6 +29,10 @@ app.get("/portfolio", function (req, res) {
   res.render("portfolio");
 });
 
+app.get("/RicoNgoCV2022", function (req, res) {
+  res.render("RicoNgoCV2022");
+});
+
 // script for navbar and portfolio
 if (typeof window !== "undefined") {
 window.addEventListener('DOMContentLoaded', event => {
